@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940C334A1E845D64001FC0F7 /* HistBTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C33491E845D64001FC0F7 /* HistBTViewController.swift */; };
+		942B62141E714F370019A475 /* BTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942B62131E714F370019A475 /* BTViewController.swift */; };
+		94410B341E7E6BBF007693AA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94410B331E7E6BBF007693AA /* MainViewController.swift */; };
+		94478A7C1E7061240008D8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94478A7B1E7061240008D8C4 /* AppDelegate.swift */; };
+		94478A811E7061240008D8C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94478A7F1E7061240008D8C4 /* Main.storyboard */; };
+		94478A831E7061240008D8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94478A821E7061240008D8C4 /* Assets.xcassets */; };
+		94478A861E7061240008D8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94478A841E7061240008D8C4 /* LaunchScreen.storyboard */; };
+		947BE36D1E7AE7FF00B40DFA /* UIImage+PixelsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947BE36C1E7AE7FF00B40DFA /* UIImage+PixelsData.swift */; };
+		D0A0AF65D24A1942D2CCC8C6 /* Pods_Lab2_BrightnessTransformations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC0DE00AFEFA65C0A4CD2AD /* Pods_Lab2_BrightnessTransformations.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AC0DE00AFEFA65C0A4CD2AD /* Pods_Lab2_BrightnessTransformations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab2_BrightnessTransformations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7F29398A73DCFFAEABD715 /* Pods-Lab2_BrightnessTransformations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab2_BrightnessTransformations.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Lab2_BrightnessTransformations/Pods-Lab2_BrightnessTransformations.release.xcconfig"; sourceTree = "<group>"; };
+		936BC420D393A0CE80D8DE2E /* Pods-Lab2_BrightnessTransformations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab2_BrightnessTransformations.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Lab2_BrightnessTransformations/Pods-Lab2_BrightnessTransformations.debug.xcconfig"; sourceTree = "<group>"; };
+		940C33491E845D64001FC0F7 /* HistBTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistBTViewController.swift; sourceTree = "<group>"; };
+		942B620A1E7139810019A475 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv2.framework; sourceTree = SOURCE_ROOT; };
+		942B62131E714F370019A475 /* BTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTViewController.swift; sourceTree = "<group>"; };
+		94410B331E7E6BBF007693AA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		94478A781E7061240008D8C4 /* Lab2_BrightnessTransformations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab2_BrightnessTransformations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94478A7B1E7061240008D8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94478A801E7061240008D8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94478A821E7061240008D8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94478A851E7061240008D8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94478A871E7061240008D8C4 /* Lab2_BrightnessTransformations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab2_BrightnessTransformations-Info.plist"; sourceTree = "<group>"; };
+		947A4F1B1E7062240025B880 /* Lab2-BrightnessTransformations-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab2-BrightnessTransformations-Bridging-Header.h"; sourceTree = "<group>"; };
+		947A4F211E7062CA0025B880 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		947BE36C1E7AE7FF00B40DFA /* UIImage+PixelsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelsData.swift"; sourceTree = "<group>"; };
+		9489C0941E71F52A0031ABB2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9489C0961E71F5310031ABB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9489C0981E71F5360031ABB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94478A751E7061240008D8C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A0AF65D24A1942D2CCC8C6 /* Pods_Lab2_BrightnessTransformations.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0082171F8EC02135F2781E70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				936BC420D393A0CE80D8DE2E /* Pods-Lab2_BrightnessTransformations.debug.xcconfig */,
+				3E7F29398A73DCFFAEABD715 /* Pods-Lab2_BrightnessTransformations.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34F73E2541878BD59D2D7972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9489C0981E71F5360031ABB2 /* UIKit.framework */,
+				9489C0961E71F5310031ABB2 /* CoreGraphics.framework */,
+				9489C0941E71F52A0031ABB2 /* Accelerate.framework */,
+				942B620A1E7139810019A475 /* opencv2.framework */,
+				3AC0DE00AFEFA65C0A4CD2AD /* Pods_Lab2_BrightnessTransformations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94478A6F1E7061240008D8C4 = {
+			isa = PBXGroup;
+			children = (
+				94478A7A1E7061240008D8C4 /* Lab2_BrightnessTransformations */,
+				94478A791E7061240008D8C4 /* Products */,
+				0082171F8EC02135F2781E70 /* Pods */,
+				34F73E2541878BD59D2D7972 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94478A791E7061240008D8C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94478A781E7061240008D8C4 /* Lab2_BrightnessTransformations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94478A7A1E7061240008D8C4 /* Lab2_BrightnessTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				94478A7B1E7061240008D8C4 /* AppDelegate.swift */,
+				947BE36E1E7AE80500B40DFA /* Extensions */,
+				947A4F191E7061A10025B880 /* Storyboards */,
+				947A4F1A1E7061A20025B880 /* ViewControllers */,
+				947A4F171E7061A10025B880 /* Resources */,
+			);
+			name = Lab2_BrightnessTransformations;
+			path = "Lab2-BrightnessTransformations";
+			sourceTree = "<group>";
+		};
+		947A4F171E7061A10025B880 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94478A821E7061240008D8C4 /* Assets.xcassets */,
+				94478A871E7061240008D8C4 /* Lab2_BrightnessTransformations-Info.plist */,
+				947A4F1B1E7062240025B880 /* Lab2-BrightnessTransformations-Bridging-Header.h */,
+				947A4F211E7062CA0025B880 /* PrefixHeader.pch */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		947A4F191E7061A10025B880 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				94478A7F1E7061240008D8C4 /* Main.storyboard */,
+				94478A841E7061240008D8C4 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		947A4F1A1E7061A20025B880 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				94410B331E7E6BBF007693AA /* MainViewController.swift */,
+				942B62131E714F370019A475 /* BTViewController.swift */,
+				940C33491E845D64001FC0F7 /* HistBTViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		947BE36E1E7AE80500B40DFA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				947BE36C1E7AE7FF00B40DFA /* UIImage+PixelsData.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94478A771E7061240008D8C4 /* Lab2_BrightnessTransformations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94478A8A1E7061240008D8C4 /* Build configuration list for PBXNativeTarget "Lab2_BrightnessTransformations" */;
+			buildPhases = (
+				28DFCDC69C2F0D3ACD2B4C72 /* [CP] Check Pods Manifest.lock */,
+				94478A741E7061240008D8C4 /* Sources */,
+				94478A751E7061240008D8C4 /* Frameworks */,
+				94478A761E7061240008D8C4 /* Resources */,
+				598F5A4DBA9DC19BFE06DE6C /* [CP] Embed Pods Frameworks */,
+				0AD1F96B74B3C3C5907FD09C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab2_BrightnessTransformations;
+			productName = "Lab2-BrightnessTransformations";
+			productReference = 94478A781E7061240008D8C4 /* Lab2_BrightnessTransformations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94478A701E7061240008D8C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maxial;
+				TargetAttributes = {
+					94478A771E7061240008D8C4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8Q4KTDMYNZ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 94478A731E7061240008D8C4 /* Build configuration list for PBXProject "Lab2_BrightnessTransformations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94478A6F1E7061240008D8C4;
+			productRefGroup = 94478A791E7061240008D8C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94478A771E7061240008D8C4 /* Lab2_BrightnessTransformations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94478A761E7061240008D8C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94478A861E7061240008D8C4 /* LaunchScreen.storyboard in Resources */,
+				94478A831E7061240008D8C4 /* Assets.xcassets in Resources */,
+				94478A811E7061240008D8C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD1F96B74B3C3C5907FD09C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Lab2_BrightnessTransformations/Pods-Lab2_BrightnessTransformations-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28DFCDC69C2F0D3ACD2B4C72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		598F5A4DBA9DC19BFE06DE6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Lab2_BrightnessTransformations/Pods-Lab2_BrightnessTransformations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94478A741E7061240008D8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94478A7C1E7061240008D8C4 /* AppDelegate.swift in Sources */,
+				942B62141E714F370019A475 /* BTViewController.swift in Sources */,
+				947BE36D1E7AE7FF00B40DFA /* UIImage+PixelsData.swift in Sources */,
+				94410B341E7E6BBF007693AA /* MainViewController.swift in Sources */,
+				940C334A1E845D64001FC0F7 /* HistBTViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94478A7F1E7061240008D8C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94478A801E7061240008D8C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94478A841E7061240008D8C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94478A851E7061240008D8C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94478A881E7061240008D8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94478A891E7061240008D8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94478A8B1E7061240008D8C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 936BC420D393A0CE80D8DE2E /* Pods-Lab2_BrightnessTransformations.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					../,
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lab2-BrightnessTransformations/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Lab2-BrightnessTransformations/Lab2_BrightnessTransformations-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Lab2-BrightnessTransformations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab2-BrightnessTransformations/Lab2-BrightnessTransformations-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94478A8C1E7061240008D8C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7F29398A73DCFFAEABD715 /* Pods-Lab2_BrightnessTransformations.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					../,
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lab2-BrightnessTransformations/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Lab2-BrightnessTransformations/Lab2_BrightnessTransformations-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Lab2-BrightnessTransformations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab2-BrightnessTransformations/Lab2-BrightnessTransformations-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94478A731E7061240008D8C4 /* Build configuration list for PBXProject "Lab2_BrightnessTransformations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94478A881E7061240008D8C4 /* Debug */,
+				94478A891E7061240008D8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94478A8A1E7061240008D8C4 /* Build configuration list for PBXNativeTarget "Lab2_BrightnessTransformations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94478A8B1E7061240008D8C4 /* Debug */,
+				94478A8C1E7061240008D8C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94478A701E7061240008D8C4 /* Project object */;
+}

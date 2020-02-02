@@ -1,0 +1,6 @@
+framework module Pods_Project2_HoughLines {
+  umbrella header "Pods-Project2_HoughLines-umbrella.h"
+
+  export *
+  module * { export * }
+}

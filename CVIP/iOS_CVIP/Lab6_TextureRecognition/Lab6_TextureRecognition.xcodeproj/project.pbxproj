@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		941D5CF21ED01BDB00214460 /* UIImage+PixelsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D5CF11ED01BDB00214460 /* UIImage+PixelsData.swift */; };
+		941D5CF51ED0309C00214460 /* L1TableViewCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D5CF41ED0309C00214460 /* L1TableViewCellProtocol.swift */; };
+		945DAAED1ECF70E4001CE3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DAAEC1ECF70E4001CE3B2 /* AppDelegate.swift */; };
+		945DAAEF1ECF70E4001CE3B2 /* TRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DAAEE1ECF70E4001CE3B2 /* TRViewController.swift */; };
+		945DAAF21ECF70E4001CE3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945DAAF01ECF70E4001CE3B2 /* Main.storyboard */; };
+		945DAAF41ECF70E4001CE3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945DAAF31ECF70E4001CE3B2 /* Assets.xcassets */; };
+		945DAAF71ECF70E4001CE3B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945DAAF51ECF70E4001CE3B2 /* LaunchScreen.storyboard */; };
+		945DAAFF1ECF71BE001CE3B2 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945DAAFE1ECF71BE001CE3B2 /* opencv2.framework */; };
+		945DAB071ECF7219001CE3B2 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 945DAB061ECF7219001CE3B2 /* OpenCVWrapper.mm */; };
+		945DAB0E1ECF8768001CE3B2 /* LBPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DAB0D1ECF8768001CE3B2 /* LBPTableViewCell.swift */; };
+		945DAB101ECF87AE001CE3B2 /* L1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DAB0F1ECF87AE001CE3B2 /* L1TableViewCell.swift */; };
+		945DAB131ECF8820001CE3B2 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945DAB121ECF8820001CE3B2 /* NSObject+ClassName.swift */; };
+		B7F35F9D2895F73D0551EF5C /* Pods_Lab6_TextureRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8FDBB680F839898E53F8C1 /* Pods_Lab6_TextureRecognition.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E8FDBB680F839898E53F8C1 /* Pods_Lab6_TextureRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab6_TextureRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		311EE598321B4F519AF34779 /* Pods-Lab6_TextureRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab6_TextureRecognition.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Lab6_TextureRecognition/Pods-Lab6_TextureRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		941D5CF11ED01BDB00214460 /* UIImage+PixelsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelsData.swift"; sourceTree = "<group>"; };
+		941D5CF41ED0309C00214460 /* L1TableViewCellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1TableViewCellProtocol.swift; sourceTree = "<group>"; };
+		945DAAE91ECF70E4001CE3B2 /* Lab6_TextureRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab6_TextureRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		945DAAEC1ECF70E4001CE3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		945DAAEE1ECF70E4001CE3B2 /* TRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRViewController.swift; sourceTree = "<group>"; };
+		945DAAF11ECF70E4001CE3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		945DAAF31ECF70E4001CE3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		945DAAF61ECF70E4001CE3B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		945DAAF81ECF70E4001CE3B2 /* Lab6_TextureRecognition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab6_TextureRecognition-Info.plist"; sourceTree = "<group>"; };
+		945DAAFE1ECF71BE001CE3B2 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		945DAB041ECF7218001CE3B2 /* Lab6_TextureRecognition-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab6_TextureRecognition-Bridging-Header.h"; sourceTree = "<group>"; };
+		945DAB051ECF7219001CE3B2 /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		945DAB061ECF7219001CE3B2 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		945DAB081ECF7229001CE3B2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		945DAB0D1ECF8768001CE3B2 /* LBPTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBPTableViewCell.swift; sourceTree = "<group>"; };
+		945DAB0F1ECF87AE001CE3B2 /* L1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1TableViewCell.swift; sourceTree = "<group>"; };
+		945DAB121ECF8820001CE3B2 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		956064E2069A2EB83E54CBAF /* Pods-Lab6_TextureRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab6_TextureRecognition.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Lab6_TextureRecognition/Pods-Lab6_TextureRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945DAAE61ECF70E4001CE3B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945DAAFF1ECF71BE001CE3B2 /* opencv2.framework in Frameworks */,
+				B7F35F9D2895F73D0551EF5C /* Pods_Lab6_TextureRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4454DF0112FC99DACC3E4786 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945DAAFE1ECF71BE001CE3B2 /* opencv2.framework */,
+				2E8FDBB680F839898E53F8C1 /* Pods_Lab6_TextureRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		941D5CF31ED0308600214460 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				941D5CF41ED0309C00214460 /* L1TableViewCellProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		945DAAE01ECF70E4001CE3B2 = {
+			isa = PBXGroup;
+			children = (
+				945DAAEB1ECF70E4001CE3B2 /* Lab6_TextureRecognition */,
+				945DAAEA1ECF70E4001CE3B2 /* Products */,
+				AA8E4B2F87111CC68CEAABC8 /* Pods */,
+				4454DF0112FC99DACC3E4786 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		945DAAEA1ECF70E4001CE3B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945DAAE91ECF70E4001CE3B2 /* Lab6_TextureRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945DAAEB1ECF70E4001CE3B2 /* Lab6_TextureRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				945DAAEC1ECF70E4001CE3B2 /* AppDelegate.swift */,
+				945DAB111ECF8803001CE3B2 /* Extensions */,
+				941D5CF31ED0308600214460 /* Protocols */,
+				945DAB001ECF71C9001CE3B2 /* OpenCVWrapper */,
+				945DAB011ECF71CA001CE3B2 /* Storyboards */,
+				945DAB021ECF71CB001CE3B2 /* ViewControllers */,
+				945DAB091ECF86BA001CE3B2 /* Cells */,
+				945DAB031ECF71CB001CE3B2 /* Resources */,
+			);
+			path = Lab6_TextureRecognition;
+			sourceTree = "<group>";
+		};
+		945DAB001ECF71C9001CE3B2 /* OpenCVWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				945DAB051ECF7219001CE3B2 /* OpenCVWrapper.h */,
+				945DAB061ECF7219001CE3B2 /* OpenCVWrapper.mm */,
+			);
+			name = OpenCVWrapper;
+			sourceTree = "<group>";
+		};
+		945DAB011ECF71CA001CE3B2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				945DAAF01ECF70E4001CE3B2 /* Main.storyboard */,
+				945DAAF51ECF70E4001CE3B2 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		945DAB021ECF71CB001CE3B2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				945DAAEE1ECF70E4001CE3B2 /* TRViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		945DAB031ECF71CB001CE3B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				945DAAF31ECF70E4001CE3B2 /* Assets.xcassets */,
+				945DAAF81ECF70E4001CE3B2 /* Lab6_TextureRecognition-Info.plist */,
+				945DAB041ECF7218001CE3B2 /* Lab6_TextureRecognition-Bridging-Header.h */,
+				945DAB081ECF7229001CE3B2 /* PrefixHeader.pch */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		945DAB091ECF86BA001CE3B2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				945DAB0D1ECF8768001CE3B2 /* LBPTableViewCell.swift */,
+				945DAB0F1ECF87AE001CE3B2 /* L1TableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		945DAB111ECF8803001CE3B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				945DAB121ECF8820001CE3B2 /* NSObject+ClassName.swift */,
+				941D5CF11ED01BDB00214460 /* UIImage+PixelsData.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		AA8E4B2F87111CC68CEAABC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				956064E2069A2EB83E54CBAF /* Pods-Lab6_TextureRecognition.debug.xcconfig */,
+				311EE598321B4F519AF34779 /* Pods-Lab6_TextureRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945DAAE81ECF70E4001CE3B2 /* Lab6_TextureRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945DAAFB1ECF70E4001CE3B2 /* Build configuration list for PBXNativeTarget "Lab6_TextureRecognition" */;
+			buildPhases = (
+				51F798D5F79D111EA27C38EC /* [CP] Check Pods Manifest.lock */,
+				945DAAE51ECF70E4001CE3B2 /* Sources */,
+				945DAAE61ECF70E4001CE3B2 /* Frameworks */,
+				945DAAE71ECF70E4001CE3B2 /* Resources */,
+				D0724F31BED96E26D8C8768D /* [CP] Embed Pods Frameworks */,
+				70D532FCFE95FFE65617BEBB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab6_TextureRecognition;
+			productName = Lab6_TextureRecognition;
+			productReference = 945DAAE91ECF70E4001CE3B2 /* Lab6_TextureRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945DAAE11ECF70E4001CE3B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maxial;
+				TargetAttributes = {
+					945DAAE81ECF70E4001CE3B2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8Q4KTDMYNZ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 945DAAE41ECF70E4001CE3B2 /* Build configuration list for PBXProject "Lab6_TextureRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945DAAE01ECF70E4001CE3B2;
+			productRefGroup = 945DAAEA1ECF70E4001CE3B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945DAAE81ECF70E4001CE3B2 /* Lab6_TextureRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945DAAE71ECF70E4001CE3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945DAAF71ECF70E4001CE3B2 /* LaunchScreen.storyboard in Resources */,
+				945DAAF41ECF70E4001CE3B2 /* Assets.xcassets in Resources */,
+				945DAAF21ECF70E4001CE3B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51F798D5F79D111EA27C38EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		70D532FCFE95FFE65617BEBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Lab6_TextureRecognition/Pods-Lab6_TextureRecognition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0724F31BED96E26D8C8768D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Lab6_TextureRecognition/Pods-Lab6_TextureRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945DAAE51ECF70E4001CE3B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945DAAEF1ECF70E4001CE3B2 /* TRViewController.swift in Sources */,
+				945DAB131ECF8820001CE3B2 /* NSObject+ClassName.swift in Sources */,
+				941D5CF51ED0309C00214460 /* L1TableViewCellProtocol.swift in Sources */,
+				941D5CF21ED01BDB00214460 /* UIImage+PixelsData.swift in Sources */,
+				945DAB0E1ECF8768001CE3B2 /* LBPTableViewCell.swift in Sources */,
+				945DAB101ECF87AE001CE3B2 /* L1TableViewCell.swift in Sources */,
+				945DAAED1ECF70E4001CE3B2 /* AppDelegate.swift in Sources */,
+				945DAB071ECF7219001CE3B2 /* OpenCVWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		945DAAF01ECF70E4001CE3B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945DAAF11ECF70E4001CE3B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		945DAAF51ECF70E4001CE3B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945DAAF61ECF70E4001CE3B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		945DAAF91ECF70E4001CE3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		945DAAFA1ECF70E4001CE3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945DAAFC1ECF70E4001CE3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956064E2069A2EB83E54CBAF /* Pods-Lab6_TextureRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Lab6_TextureRecognition/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Lab6_TextureRecognition/Lab6_TextureRecognition-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Lab6-TextureRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab6_TextureRecognition/Lab6_TextureRecognition-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		945DAAFD1ECF70E4001CE3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 311EE598321B4F519AF34779 /* Pods-Lab6_TextureRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Lab6_TextureRecognition/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Lab6_TextureRecognition/Lab6_TextureRecognition-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Lab6-TextureRecognition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab6_TextureRecognition/Lab6_TextureRecognition-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945DAAE41ECF70E4001CE3B2 /* Build configuration list for PBXProject "Lab6_TextureRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945DAAF91ECF70E4001CE3B2 /* Debug */,
+				945DAAFA1ECF70E4001CE3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945DAAFB1ECF70E4001CE3B2 /* Build configuration list for PBXNativeTarget "Lab6_TextureRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945DAAFC1ECF70E4001CE3B2 /* Debug */,
+				945DAAFD1ECF70E4001CE3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945DAAE11ECF70E4001CE3B2 /* Project object */;
+}

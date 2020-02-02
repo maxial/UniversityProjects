@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89C6E39B692ED1AE22226D22 /* Pods_Lab5_SpatAndFreqFiltering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC5F7E6AB76D5A7F490C002 /* Pods_Lab5_SpatAndFreqFiltering.framework */; };
+		9443D6F21E9D5CBE00698365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443D6F11E9D5CBE00698365 /* AppDelegate.swift */; };
+		9443D6F41E9D5CBE00698365 /* SFFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9443D6F31E9D5CBE00698365 /* SFFViewController.swift */; };
+		9443D6F71E9D5CBE00698365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9443D6F51E9D5CBE00698365 /* Main.storyboard */; };
+		9443D6F91E9D5CBE00698365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9443D6F81E9D5CBE00698365 /* Assets.xcassets */; };
+		9443D6FC1E9D5CBE00698365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9443D6FA1E9D5CBE00698365 /* LaunchScreen.storyboard */; };
+		9443D7061E9D5DD000698365 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443D7051E9D5DD000698365 /* opencv2.framework */; };
+		9443D70E1E9D5E8800698365 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9443D70D1E9D5E8800698365 /* OpenCVWrapper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81B525D2D20D1E37715EE643 /* Pods-Lab5_SpatAndFreqFiltering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab5_SpatAndFreqFiltering.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Lab5_SpatAndFreqFiltering/Pods-Lab5_SpatAndFreqFiltering.debug.xcconfig"; sourceTree = "<group>"; };
+		8DE03A1BE06079C080374B49 /* Pods-Lab5_SpatAndFreqFiltering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab5_SpatAndFreqFiltering.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Lab5_SpatAndFreqFiltering/Pods-Lab5_SpatAndFreqFiltering.release.xcconfig"; sourceTree = "<group>"; };
+		9443D6EE1E9D5CBE00698365 /* Lab5_SpatAndFreqFiltering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab5_SpatAndFreqFiltering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9443D6F11E9D5CBE00698365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9443D6F31E9D5CBE00698365 /* SFFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFFViewController.swift; sourceTree = "<group>"; };
+		9443D6F61E9D5CBE00698365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9443D6F81E9D5CBE00698365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9443D6FB1E9D5CBE00698365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9443D6FD1E9D5CBE00698365 /* Lab5_SpatAndFreqFiltering-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab5_SpatAndFreqFiltering-Info.plist"; sourceTree = "<group>"; };
+		9443D7051E9D5DD000698365 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		9443D70B1E9D5E8700698365 /* Lab5_SpatAndFreqFiltering-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab5_SpatAndFreqFiltering-Bridging-Header.h"; sourceTree = "<group>"; };
+		9443D70C1E9D5E8800698365 /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		9443D70D1E9D5E8800698365 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		9443D70F1E9D5EA700698365 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BBC5F7E6AB76D5A7F490C002 /* Pods_Lab5_SpatAndFreqFiltering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab5_SpatAndFreqFiltering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9443D6EB1E9D5CBE00698365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443D7061E9D5DD000698365 /* opencv2.framework in Frameworks */,
+				89C6E39B692ED1AE22226D22 /* Pods_Lab5_SpatAndFreqFiltering.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EDCF233244B4D36122F47D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9443D7051E9D5DD000698365 /* opencv2.framework */,
+				BBC5F7E6AB76D5A7F490C002 /* Pods_Lab5_SpatAndFreqFiltering.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C5A0266DF2C59B7482868F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81B525D2D20D1E37715EE643 /* Pods-Lab5_SpatAndFreqFiltering.debug.xcconfig */,
+				8DE03A1BE06079C080374B49 /* Pods-Lab5_SpatAndFreqFiltering.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9443D6E51E9D5CBE00698365 = {
+			isa = PBXGroup;
+			children = (
+				9443D6F01E9D5CBE00698365 /* Lab5_SpatAndFreqFiltering */,
+				9443D6EF1E9D5CBE00698365 /* Products */,
+				7C5A0266DF2C59B7482868F1 /* Pods */,
+				3EDCF233244B4D36122F47D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9443D6EF1E9D5CBE00698365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9443D6EE1E9D5CBE00698365 /* Lab5_SpatAndFreqFiltering.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9443D6F01E9D5CBE00698365 /* Lab5_SpatAndFreqFiltering */ = {
+			isa = PBXGroup;
+			children = (
+				9443D6F11E9D5CBE00698365 /* AppDelegate.swift */,
+				9443D7071E9D5E1300698365 /* OpenCVWrapper */,
+				9443D7091E9D5E1800698365 /* Storyboards */,
+				9443D7081E9D5E1600698365 /* ViewControllers */,
+				9443D70A1E9D5E1B00698365 /* Resources */,
+			);
+			path = Lab5_SpatAndFreqFiltering;
+			sourceTree = "<group>";
+		};
+		9443D7071E9D5E1300698365 /* OpenCVWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				9443D70C1E9D5E8800698365 /* OpenCVWrapper.h */,
+				9443D70D1E9D5E8800698365 /* OpenCVWrapper.mm */,
+			);
+			name = OpenCVWrapper;
+			sourceTree = "<group>";
+		};
+		9443D7081E9D5E1600698365 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9443D6F31E9D5CBE00698365 /* SFFViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9443D7091E9D5E1800698365 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9443D6F51E9D5CBE00698365 /* Main.storyboard */,
+				9443D6FA1E9D5CBE00698365 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		9443D70A1E9D5E1B00698365 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9443D6F81E9D5CBE00698365 /* Assets.xcassets */,
+				9443D6FD1E9D5CBE00698365 /* Lab5_SpatAndFreqFiltering-Info.plist */,
+				9443D70B1E9D5E8700698365 /* Lab5_SpatAndFreqFiltering-Bridging-Header.h */,
+				9443D70F1E9D5EA700698365 /* PrefixHeader.pch */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9443D6ED1E9D5CBE00698365 /* Lab5_SpatAndFreqFiltering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9443D7001E9D5CBE00698365 /* Build configuration list for PBXNativeTarget "Lab5_SpatAndFreqFiltering" */;
+			buildPhases = (
+				719DBE08E46C5BC776419317 /* [CP] Check Pods Manifest.lock */,
+				9443D6EA1E9D5CBE00698365 /* Sources */,
+				9443D6EB1E9D5CBE00698365 /* Frameworks */,
+				9443D6EC1E9D5CBE00698365 /* Resources */,
+				F2877ABCB24E162FB5F8A69C /* [CP] Embed Pods Frameworks */,
+				F64ED18961C911EF91C8D7E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab5_SpatAndFreqFiltering;
+			productName = Lab5_SpatAndFreqFiltering;
+			productReference = 9443D6EE1E9D5CBE00698365 /* Lab5_SpatAndFreqFiltering.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9443D6E61E9D5CBE00698365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maxial;
+				TargetAttributes = {
+					9443D6ED1E9D5CBE00698365 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8Q4KTDMYNZ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9443D6E91E9D5CBE00698365 /* Build configuration list for PBXProject "Lab5_SpatAndFreqFiltering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9443D6E51E9D5CBE00698365;
+			productRefGroup = 9443D6EF1E9D5CBE00698365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9443D6ED1E9D5CBE00698365 /* Lab5_SpatAndFreqFiltering */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9443D6EC1E9D5CBE00698365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443D6FC1E9D5CBE00698365 /* LaunchScreen.storyboard in Resources */,
+				9443D6F91E9D5CBE00698365 /* Assets.xcassets in Resources */,
+				9443D6F71E9D5CBE00698365 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		719DBE08E46C5BC776419317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2877ABCB24E162FB5F8A69C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Lab5_SpatAndFreqFiltering/Pods-Lab5_SpatAndFreqFiltering-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F64ED18961C911EF91C8D7E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Lab5_SpatAndFreqFiltering/Pods-Lab5_SpatAndFreqFiltering-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9443D6EA1E9D5CBE00698365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9443D6F41E9D5CBE00698365 /* SFFViewController.swift in Sources */,
+				9443D6F21E9D5CBE00698365 /* AppDelegate.swift in Sources */,
+				9443D70E1E9D5E8800698365 /* OpenCVWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9443D6F51E9D5CBE00698365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9443D6F61E9D5CBE00698365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9443D6FA1E9D5CBE00698365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9443D6FB1E9D5CBE00698365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9443D6FE1E9D5CBE00698365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9443D6FF1E9D5CBE00698365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9443D7011E9D5CBE00698365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B525D2D20D1E37715EE643 /* Pods-Lab5_SpatAndFreqFiltering.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lab5_SpatAndFreqFiltering/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Lab5_SpatAndFreqFiltering/Lab5_SpatAndFreqFiltering-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Lab5-SpatAndFreqFiltering";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab5_SpatAndFreqFiltering/Lab5_SpatAndFreqFiltering-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9443D7021E9D5CBE00698365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE03A1BE06079C080374B49 /* Pods-Lab5_SpatAndFreqFiltering.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Lab5_SpatAndFreqFiltering/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Lab5_SpatAndFreqFiltering/Lab5_SpatAndFreqFiltering-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Lab5-SpatAndFreqFiltering";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab5_SpatAndFreqFiltering/Lab5_SpatAndFreqFiltering-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9443D6E91E9D5CBE00698365 /* Build configuration list for PBXProject "Lab5_SpatAndFreqFiltering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443D6FE1E9D5CBE00698365 /* Debug */,
+				9443D6FF1E9D5CBE00698365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9443D7001E9D5CBE00698365 /* Build configuration list for PBXNativeTarget "Lab5_SpatAndFreqFiltering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9443D7011E9D5CBE00698365 /* Debug */,
+				9443D7021E9D5CBE00698365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9443D6E61E9D5CBE00698365 /* Project object */;
+}

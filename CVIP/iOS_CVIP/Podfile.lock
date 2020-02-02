@@ -1,0 +1,23 @@
+PODS:
+  - Charts (3.0.1):
+    - Charts/Core (= 3.0.1)
+  - Charts/Core (3.0.1)
+  - DRColorPicker (1.0.11)
+  - TOCropViewController (2.0.12)
+  - TTRangeSlider (1.0.5)
+
+DEPENDENCIES:
+  - Charts
+  - DRColorPicker
+  - TOCropViewController
+  - TTRangeSlider
+
+SPEC CHECKSUMS:
+  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
+  DRColorPicker: d4291e8ac469f5762b1f1f6a98e8e1b3bf230ad6
+  TOCropViewController: e6e31b38d785a901e5651a1e7fff71bcda6c5214
+  TTRangeSlider: 2f2ce4a33b32bb323c6575b9f5161c4664459c58
+
+PODFILE CHECKSUM: 3c24d3d1d821ea221f01aeca98c0fd3accd3a518
+
+COCOAPODS: 1.2.0

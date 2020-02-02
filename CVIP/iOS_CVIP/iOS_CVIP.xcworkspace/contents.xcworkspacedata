@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Lab1_rgbHistogram/Lab1_rgbHistogram.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Lab2_BrightnessTransformations/Lab2_BrightnessTransformations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Lab3_HalftoneBinaryTrans/Lab3_HalftoneBinaryTrans.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Lab4_MorphologicalTrans/Lab4_MorphologicalTrans.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Lab5_SpatAndFreqFiltering/Lab5_SpatAndFreqFiltering.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Lab6_TextureRecognition/Lab6_TextureRecognition.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Project2_HoughLines/Project2_HoughLines.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

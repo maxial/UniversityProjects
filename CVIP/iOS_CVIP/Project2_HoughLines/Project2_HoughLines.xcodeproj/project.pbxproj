@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DAD8B009F3376DAB307A190 /* Pods_Project2_HoughLines.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E973E88ECFD1A0DEF05C0AC /* Pods_Project2_HoughLines.framework */; };
+		942263E71ECD6EFE009A263B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942263E61ECD6EFE009A263B /* AppDelegate.swift */; };
+		942263E91ECD6EFE009A263B /* HLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942263E81ECD6EFE009A263B /* HLViewController.swift */; };
+		942263EC1ECD6EFE009A263B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942263EA1ECD6EFE009A263B /* Main.storyboard */; };
+		942263EE1ECD6EFE009A263B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942263ED1ECD6EFE009A263B /* Assets.xcassets */; };
+		942263F11ECD6EFE009A263B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942263EF1ECD6EFE009A263B /* LaunchScreen.storyboard */; };
+		942263FA1ECD6F54009A263B /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942263F91ECD6F54009A263B /* opencv2.framework */; };
+		942264001ECD7251009A263B /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 942263FF1ECD7251009A263B /* OpenCVWrapper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2995133B8C62DEAFF1ABC5DE /* Pods-Project2_HoughLines.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2_HoughLines.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2_HoughLines/Pods-Project2_HoughLines.release.xcconfig"; sourceTree = "<group>"; };
+		41802E82F00E00D18A2A4D5F /* Pods-Project2_HoughLines.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2_HoughLines.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Project2_HoughLines/Pods-Project2_HoughLines.debug.xcconfig"; sourceTree = "<group>"; };
+		7E973E88ECFD1A0DEF05C0AC /* Pods_Project2_HoughLines.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project2_HoughLines.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		942263E31ECD6EFE009A263B /* Project2_HoughLines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2_HoughLines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942263E61ECD6EFE009A263B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		942263E81ECD6EFE009A263B /* HLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLViewController.swift; sourceTree = "<group>"; };
+		942263EB1ECD6EFE009A263B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		942263ED1ECD6EFE009A263B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942263F01ECD6EFE009A263B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		942263F21ECD6EFE009A263B /* Project2_HoughLines-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project2_HoughLines-Info.plist"; sourceTree = "<group>"; };
+		942263F91ECD6F54009A263B /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		942263FB1ECD7120009A263B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		942263FC1ECD7156009A263B /* Project2_HoughLines-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Project2_HoughLines-Bridging-Header.h"; sourceTree = "<group>"; };
+		942263FE1ECD7251009A263B /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		942263FF1ECD7251009A263B /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942263E01ECD6EFE009A263B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942263FA1ECD6F54009A263B /* opencv2.framework in Frameworks */,
+				8DAD8B009F3376DAB307A190 /* Pods_Project2_HoughLines.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28BCC347A05641B705B09EE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41802E82F00E00D18A2A4D5F /* Pods-Project2_HoughLines.debug.xcconfig */,
+				2995133B8C62DEAFF1ABC5DE /* Pods-Project2_HoughLines.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		942263DA1ECD6EFE009A263B = {
+			isa = PBXGroup;
+			children = (
+				942263E51ECD6EFE009A263B /* Project2_HoughLines */,
+				942263E41ECD6EFE009A263B /* Products */,
+				28BCC347A05641B705B09EE0 /* Pods */,
+				942263F81ECD6F54009A263B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		942263E41ECD6EFE009A263B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942263E31ECD6EFE009A263B /* Project2_HoughLines.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942263E51ECD6EFE009A263B /* Project2_HoughLines */ = {
+			isa = PBXGroup;
+			children = (
+				942263E61ECD6EFE009A263B /* AppDelegate.swift */,
+				942263FD1ECD7242009A263B /* OpenCVWrapper */,
+				942264011ECD7296009A263B /* Storyboards */,
+				942264021ECD7296009A263B /* ViewControllers */,
+				942264031ECD7297009A263B /* Resources */,
+			);
+			path = Project2_HoughLines;
+			sourceTree = "<group>";
+		};
+		942263F81ECD6F54009A263B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				942263F91ECD6F54009A263B /* opencv2.framework */,
+				7E973E88ECFD1A0DEF05C0AC /* Pods_Project2_HoughLines.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		942263FD1ECD7242009A263B /* OpenCVWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				942263FE1ECD7251009A263B /* OpenCVWrapper.h */,
+				942263FF1ECD7251009A263B /* OpenCVWrapper.mm */,
+			);
+			name = OpenCVWrapper;
+			sourceTree = "<group>";
+		};
+		942264011ECD7296009A263B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				942263EA1ECD6EFE009A263B /* Main.storyboard */,
+				942263EF1ECD6EFE009A263B /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		942264021ECD7296009A263B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				942263E81ECD6EFE009A263B /* HLViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		942264031ECD7297009A263B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				942263ED1ECD6EFE009A263B /* Assets.xcassets */,
+				942263F21ECD6EFE009A263B /* Project2_HoughLines-Info.plist */,
+				942263FC1ECD7156009A263B /* Project2_HoughLines-Bridging-Header.h */,
+				942263FB1ECD7120009A263B /* PrefixHeader.pch */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942263E21ECD6EFE009A263B /* Project2_HoughLines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942263F51ECD6EFE009A263B /* Build configuration list for PBXNativeTarget "Project2_HoughLines" */;
+			buildPhases = (
+				E216B2D081490682777B2445 /* [CP] Check Pods Manifest.lock */,
+				942263DF1ECD6EFE009A263B /* Sources */,
+				942263E01ECD6EFE009A263B /* Frameworks */,
+				942263E11ECD6EFE009A263B /* Resources */,
+				1C682F377379DAFFD0795023 /* [CP] Embed Pods Frameworks */,
+				910FAD26A4B7BB3001A785BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project2_HoughLines;
+			productName = Project2_HoughLines;
+			productReference = 942263E31ECD6EFE009A263B /* Project2_HoughLines.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942263DB1ECD6EFE009A263B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maxial;
+				TargetAttributes = {
+					942263E21ECD6EFE009A263B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8Q4KTDMYNZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 942263DE1ECD6EFE009A263B /* Build configuration list for PBXProject "Project2_HoughLines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942263DA1ECD6EFE009A263B;
+			productRefGroup = 942263E41ECD6EFE009A263B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942263E21ECD6EFE009A263B /* Project2_HoughLines */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942263E11ECD6EFE009A263B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942263F11ECD6EFE009A263B /* LaunchScreen.storyboard in Resources */,
+				942263EE1ECD6EFE009A263B /* Assets.xcassets in Resources */,
+				942263EC1ECD6EFE009A263B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C682F377379DAFFD0795023 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Project2_HoughLines/Pods-Project2_HoughLines-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910FAD26A4B7BB3001A785BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Project2_HoughLines/Pods-Project2_HoughLines-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E216B2D081490682777B2445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942263DF1ECD6EFE009A263B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942263E91ECD6EFE009A263B /* HLViewController.swift in Sources */,
+				942263E71ECD6EFE009A263B /* AppDelegate.swift in Sources */,
+				942264001ECD7251009A263B /* OpenCVWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		942263EA1ECD6EFE009A263B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942263EB1ECD6EFE009A263B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		942263EF1ECD6EFE009A263B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942263F01ECD6EFE009A263B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942263F31ECD6EFE009A263B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		942263F41ECD6EFE009A263B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942263F61ECD6EFE009A263B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41802E82F00E00D18A2A4D5F /* Pods-Project2_HoughLines.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Project2_HoughLines/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Project2_HoughLines/Project2_HoughLines-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Project2-HoughLines";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Project2_HoughLines/Project2_HoughLines-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		942263F71ECD6EFE009A263B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2995133B8C62DEAFF1ABC5DE /* Pods-Project2_HoughLines.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Project2_HoughLines/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Project2_HoughLines/Project2_HoughLines-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Project2-HoughLines";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Project2_HoughLines/Project2_HoughLines-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942263DE1ECD6EFE009A263B /* Build configuration list for PBXProject "Project2_HoughLines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942263F31ECD6EFE009A263B /* Debug */,
+				942263F41ECD6EFE009A263B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942263F51ECD6EFE009A263B /* Build configuration list for PBXNativeTarget "Project2_HoughLines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942263F61ECD6EFE009A263B /* Debug */,
+				942263F71ECD6EFE009A263B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942263DB1ECD6EFE009A263B /* Project object */;
+}

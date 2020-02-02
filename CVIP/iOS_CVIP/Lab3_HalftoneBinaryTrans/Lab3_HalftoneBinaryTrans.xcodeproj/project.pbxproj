@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157205E72C5F484A5D4C5233 /* Pods_Lab3_HalftoneBinaryTrans.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03E97779DF4A9D27B575B76 /* Pods_Lab3_HalftoneBinaryTrans.framework */; };
+		944E2C0D1E88371F002CEDC0 /* UIImage+PixelsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944E2C0C1E88371F002CEDC0 /* UIImage+PixelsData.swift */; };
+		944E2C121E88379D002CEDC0 /* HBTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944E2C101E88379D002CEDC0 /* HBTViewController.swift */; };
+		944E2C131E88379D002CEDC0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944E2C111E88379D002CEDC0 /* MainViewController.swift */; };
+		945BC7CF1E7A7BC700304D5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945BC7CE1E7A7BC700304D5E /* AppDelegate.swift */; };
+		945BC7D41E7A7BC700304D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945BC7D21E7A7BC700304D5E /* Main.storyboard */; };
+		945BC7D61E7A7BC700304D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945BC7D51E7A7BC700304D5E /* Assets.xcassets */; };
+		945BC7D91E7A7BC700304D5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945BC7D71E7A7BC700304D5E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		784DB7749CAF21D4AD52690F /* Pods-Lab3_HalftoneBinaryTrans.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab3_HalftoneBinaryTrans.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Lab3_HalftoneBinaryTrans/Pods-Lab3_HalftoneBinaryTrans.release.xcconfig"; sourceTree = "<group>"; };
+		944E2C0C1E88371F002CEDC0 /* UIImage+PixelsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelsData.swift"; sourceTree = "<group>"; };
+		944E2C101E88379D002CEDC0 /* HBTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBTViewController.swift; sourceTree = "<group>"; };
+		944E2C111E88379D002CEDC0 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		945BC7CB1E7A7BC700304D5E /* Lab3_HalftoneBinaryTrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab3_HalftoneBinaryTrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		945BC7CE1E7A7BC700304D5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		945BC7D31E7A7BC700304D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		945BC7D51E7A7BC700304D5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		945BC7D81E7A7BC700304D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		945BC7DA1E7A7BC700304D5E /* Lab3_HalftoneBinaryTrans-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab3_HalftoneBinaryTrans-Info.plist"; sourceTree = "<group>"; };
+		945BC7E01E7A7C0B00304D5E /* Lab3_HalftoneBinaryTrans-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab3_HalftoneBinaryTrans-Bridging-Header.h"; sourceTree = "<group>"; };
+		945BC7E31E7A7C0B00304D5E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AAD0181C21BC3B33989CD950 /* Pods-Lab3_HalftoneBinaryTrans.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab3_HalftoneBinaryTrans.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Lab3_HalftoneBinaryTrans/Pods-Lab3_HalftoneBinaryTrans.debug.xcconfig"; sourceTree = "<group>"; };
+		F03E97779DF4A9D27B575B76 /* Pods_Lab3_HalftoneBinaryTrans.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab3_HalftoneBinaryTrans.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945BC7C81E7A7BC700304D5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157205E72C5F484A5D4C5233 /* Pods_Lab3_HalftoneBinaryTrans.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2155DFC2056D85E700CAA83B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F03E97779DF4A9D27B575B76 /* Pods_Lab3_HalftoneBinaryTrans.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		944E2C0F1E883738002CEDC0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				944E2C0C1E88371F002CEDC0 /* UIImage+PixelsData.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		945BC7C21E7A7BC700304D5E = {
+			isa = PBXGroup;
+			children = (
+				945BC7CD1E7A7BC700304D5E /* Lab3_HalftoneBinaryTrans */,
+				945BC7CC1E7A7BC700304D5E /* Products */,
+				FED2D18865169A508F8EF974 /* Pods */,
+				2155DFC2056D85E700CAA83B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		945BC7CC1E7A7BC700304D5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945BC7CB1E7A7BC700304D5E /* Lab3_HalftoneBinaryTrans.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945BC7CD1E7A7BC700304D5E /* Lab3_HalftoneBinaryTrans */ = {
+			isa = PBXGroup;
+			children = (
+				945BC7CE1E7A7BC700304D5E /* AppDelegate.swift */,
+				944E2C0F1E883738002CEDC0 /* Extensions */,
+				945BC80F1E7A7CA300304D5E /* Storyboards */,
+				945BC8101E7A7CA400304D5E /* ViewControllers */,
+				945BC80E1E7A7CA200304D5E /* Resources */,
+			);
+			path = Lab3_HalftoneBinaryTrans;
+			sourceTree = "<group>";
+		};
+		945BC80E1E7A7CA200304D5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				945BC7D51E7A7BC700304D5E /* Assets.xcassets */,
+				945BC7DA1E7A7BC700304D5E /* Lab3_HalftoneBinaryTrans-Info.plist */,
+				945BC7E01E7A7C0B00304D5E /* Lab3_HalftoneBinaryTrans-Bridging-Header.h */,
+				945BC7E31E7A7C0B00304D5E /* PrefixHeader.pch */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		945BC80F1E7A7CA300304D5E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				945BC7D21E7A7BC700304D5E /* Main.storyboard */,
+				945BC7D71E7A7BC700304D5E /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		945BC8101E7A7CA400304D5E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				944E2C111E88379D002CEDC0 /* MainViewController.swift */,
+				944E2C101E88379D002CEDC0 /* HBTViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FED2D18865169A508F8EF974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAD0181C21BC3B33989CD950 /* Pods-Lab3_HalftoneBinaryTrans.debug.xcconfig */,
+				784DB7749CAF21D4AD52690F /* Pods-Lab3_HalftoneBinaryTrans.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945BC7CA1E7A7BC700304D5E /* Lab3_HalftoneBinaryTrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945BC7DD1E7A7BC700304D5E /* Build configuration list for PBXNativeTarget "Lab3_HalftoneBinaryTrans" */;
+			buildPhases = (
+				2C1C69FCEC6A06EE0DF202C0 /* [CP] Check Pods Manifest.lock */,
+				945BC7C71E7A7BC700304D5E /* Sources */,
+				945BC7C81E7A7BC700304D5E /* Frameworks */,
+				945BC7C91E7A7BC700304D5E /* Resources */,
+				553DEE5A032D0FA5BC8EFC95 /* [CP] Embed Pods Frameworks */,
+				5A589A7336426ED4A3A30FD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab3_HalftoneBinaryTrans;
+			productName = Lab3_HalftoneBinaryTrans;
+			productReference = 945BC7CB1E7A7BC700304D5E /* Lab3_HalftoneBinaryTrans.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945BC7C31E7A7BC700304D5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Maxial;
+				TargetAttributes = {
+					945BC7CA1E7A7BC700304D5E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8Q4KTDMYNZ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 945BC7C61E7A7BC700304D5E /* Build configuration list for PBXProject "Lab3_HalftoneBinaryTrans" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945BC7C21E7A7BC700304D5E;
+			productRefGroup = 945BC7CC1E7A7BC700304D5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945BC7CA1E7A7BC700304D5E /* Lab3_HalftoneBinaryTrans */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945BC7C91E7A7BC700304D5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945BC7D91E7A7BC700304D5E /* LaunchScreen.storyboard in Resources */,
+				945BC7D61E7A7BC700304D5E /* Assets.xcassets in Resources */,
+				945BC7D41E7A7BC700304D5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C1C69FCEC6A06EE0DF202C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		553DEE5A032D0FA5BC8EFC95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Lab3_HalftoneBinaryTrans/Pods-Lab3_HalftoneBinaryTrans-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A589A7336426ED4A3A30FD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Lab3_HalftoneBinaryTrans/Pods-Lab3_HalftoneBinaryTrans-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945BC7C71E7A7BC700304D5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945BC7CF1E7A7BC700304D5E /* AppDelegate.swift in Sources */,
+				944E2C121E88379D002CEDC0 /* HBTViewController.swift in Sources */,
+				944E2C0D1E88371F002CEDC0 /* UIImage+PixelsData.swift in Sources */,
+				944E2C131E88379D002CEDC0 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		945BC7D21E7A7BC700304D5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945BC7D31E7A7BC700304D5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		945BC7D71E7A7BC700304D5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945BC7D81E7A7BC700304D5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		945BC7DB1E7A7BC700304D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		945BC7DC1E7A7BC700304D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945BC7DE1E7A7BC700304D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD0181C21BC3B33989CD950 /* Pods-Lab3_HalftoneBinaryTrans.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				INFOPLIST_FILE = "$(SRCROOT)/Lab3_HalftoneBinaryTrans/Lab3_HalftoneBinaryTrans-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Lab3-HalftoneBinaryTrans";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab3_HalftoneBinaryTrans/Lab3_HalftoneBinaryTrans-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		945BC7DF1E7A7BC700304D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 784DB7749CAF21D4AD52690F /* Pods-Lab3_HalftoneBinaryTrans.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8Q4KTDMYNZ;
+				INFOPLIST_FILE = "$(SRCROOT)/Lab3_HalftoneBinaryTrans/Lab3_HalftoneBinaryTrans-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mxl.Lab3-HalftoneBinaryTrans";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab3_HalftoneBinaryTrans/Lab3_HalftoneBinaryTrans-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945BC7C61E7A7BC700304D5E /* Build configuration list for PBXProject "Lab3_HalftoneBinaryTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945BC7DB1E7A7BC700304D5E /* Debug */,
+				945BC7DC1E7A7BC700304D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945BC7DD1E7A7BC700304D5E /* Build configuration list for PBXNativeTarget "Lab3_HalftoneBinaryTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945BC7DE1E7A7BC700304D5E /* Debug */,
+				945BC7DF1E7A7BC700304D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945BC7C31E7A7BC700304D5E /* Project object */;
+}

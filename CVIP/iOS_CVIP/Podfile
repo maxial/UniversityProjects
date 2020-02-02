@@ -1,0 +1,58 @@
+workspace 'iOS_CVIP.xcworkspace'
+platform :ios, '9.0'
+
+use_frameworks!
+
+inhibit_all_warnings!
+
+def shared_pods
+    pod 'TOCropViewController'
+end
+
+project 'Lab1_rgbHistogram/Lab1_rgbHistogram.xcodeproj'
+project 'Lab2_BrightnessTransformations/Lab2_BrightnessTransformations.xcodeproj'
+project 'Lab3_HalftoneBinaryTrans/Lab3_HalftoneBinaryTrans.xcodeproj'
+project 'Lab4_MorphologicalTrans/Lab4_MorphologicalTrans.xcodeproj'
+project 'Lab5_SpatAndFreqFiltering/Lab5_SpatAndFreqFiltering.xcodeproj'
+project 'Lab6_TextureRecognition/Lab6_TextureRecognition.xcodeproj'
+project 'Project2_HoughLines/Project2_HoughLines.xcodeproj'
+
+target :Lab1_rgbHistogram do
+    project 'Lab1_rgbHistogram/Lab1_rgbHistogram.xcodeproj'
+    shared_pods
+    
+    pod 'Charts'
+end
+
+target :Lab2_BrightnessTransformations do
+    project 'Lab2_BrightnessTransformations/Lab2_BrightnessTransformations.xcodeproj'
+    shared_pods
+    
+    pod 'DRColorPicker'
+    pod 'Charts'
+end
+
+target :Lab3_HalftoneBinaryTrans do
+    project 'Lab3_HalftoneBinaryTrans/Lab3_HalftoneBinaryTrans.xcodeproj'
+    shared_pods
+    
+    pod 'TTRangeSlider'
+end
+
+target :Lab4_MorphologicalTrans do
+    project 'Lab4_MorphologicalTrans/Lab4_MorphologicalTrans.xcodeproj'
+end
+
+target :Lab5_SpatAndFreqFiltering do
+    project 'Lab5_SpatAndFreqFiltering/Lab5_SpatAndFreqFiltering.xcodeproj'
+end
+
+target :Lab6_TextureRecognition do
+    project 'Lab6_TextureRecognition/Lab6_TextureRecognition.xcodeproj'
+    
+    pod 'Charts'
+end
+
+target :Project2_HoughLines do
+    project 'Project2_HoughLines/Project2_HoughLines.xcodeproj'
+end
